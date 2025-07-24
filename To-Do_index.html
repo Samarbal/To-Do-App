@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List App - Fixed & Explained</title>
+    
+    <link rel="stylesheet" href="To-Do_Style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="todo-app">
+            <h2>To-Do List <img src="icon.png"></h2>
+            
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Add your task" maxlength="100">
+                <button onclick="addTask()">Add</button>
+            </div>
+
+            <ul id="list-container">
+                <!-- Tasks will be added here dynamically -->
+            </ul>
+
+            <!-- Statistics Section -->
+            <div class="stats">
+                <h3>Task Statistics</h3>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-number" id="total-tasks">0</div>
+                        <div class="stat-label">Total Tasks</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" id="completed-tasks">0</div>
+                        <div class="stat-label">Completed</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" id="pending-tasks">0</div>
+                        <div class="stat-label">Pending</div>
+                    </div>
+                </div>
+                <button class="clear-btn" onclick="clearAllTasks()">Clear All Tasks</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="To-Do_Script.js"></script>
+</body>
+</html>
