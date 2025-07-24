@@ -5,6 +5,8 @@ This is a simple **To-Do List** web app that helps you write down tasks, mark th
 
 It’s a great beginner project to practice **HTML**, **CSS**, and **JavaScript** in one place!
 
+<img width="1847" height="878" alt="image" src="https://github.com/user-attachments/assets/c26482ee-c75b-4b9f-ae08-18776b8c12a0" />
+
 ---
 
 ### 🚀 What does it do?
